@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#list{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 32px;
+    gap: 32px;
+    border-radius: 40px;
+}
+
+#pendientes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 1rem;
+}
+
+.task-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 0.5rem;
+
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    gap: 320px;
+    padding: 1rem 2rem;
+    border: 2px solid #000000;
+    border-radius: 40px;
+    font-size: 2rem;
+}
+
+.task button{
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+}
