@@ -105,7 +105,7 @@ h2 {
 
 p{
   margin: 0;
-  width: 1000px;
+  width: 700px;
   word-break: break-all;
 }
 
@@ -116,7 +116,7 @@ input{
   padding: 1rem;
   background-color: transparent;
   border: 2px solid var(--texto);
-  width: 1000px;
+  width: 700px;
   color: var(--texto);
 }
 
