@@ -22,7 +22,8 @@ taskList.addEventListener("click", (e) => {
 
 function addTask() {
   let task = document.createElement("div");
-  task.innerHTML = `<p>${input.value}</p><button class="btn"><i class="fa-solid fa-check"></i></button>`;
+  task.innerHTML = `<p></p><button class="btn"><i class="fa-solid fa-check"></i></button>`;
+  task.innerText = input.value
   task.classList = "task";
   taskList.appendChild(task);
   input.value = input.defaultValue;
