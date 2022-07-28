@@ -89,6 +89,7 @@ body {
   font-size: 2rem;
   color: var(--texto);
   cursor: pointer;
+  margin: 0;
 }
 
 h2 {
